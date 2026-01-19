@@ -5,7 +5,9 @@ A new Flutter project.
 ## Getting Started
 
 ## Screenshot
-![ProductScreen](assets/images/img.png)
-![ProductDetailScreen](assets/images/img2.png)
+<p align="center">
+  <img src="assets/images/img1.png" width="220" />
+  <img src="assets/images/img2.png" width="220" />
+</p>
 
 
