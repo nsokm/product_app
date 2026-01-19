@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:product_app/LoadingPage.dart';
+import 'package:product_app/features/product/components/Loading.dart';
 
 void main() {
   runApp(const MyApp());
@@ -12,7 +12,7 @@ class MyApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return MaterialApp(
       debugShowCheckedModeBanner: false,
-      home: LoadingPage(),
+      home: Loading(),
     );
   }
 }

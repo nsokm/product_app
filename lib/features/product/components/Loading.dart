@@ -1,16 +1,16 @@
 import 'package:flutter/material.dart';
-import 'package:product_app/ProductScreen.dart';
+import 'package:product_app/features/product/page/ProductScreen.dart';
 
-class LoadingPage extends StatefulWidget {
-  const LoadingPage({super.key});
+class Loading extends StatefulWidget {
+  const Loading({super.key});
 
  @override
-  State<LoadingPage> createState() => _LoadingPageState();
+  State<Loading> createState() => _LoadingState();
 
   
 }
 
-class _LoadingPageState extends State<LoadingPage> {
+class _LoadingState extends State<Loading> {
   @override
   void initState() {
     super.initState();
@@ -19,7 +19,7 @@ class _LoadingPageState extends State<LoadingPage> {
       if (mounted) {
         Navigator.pushReplacement(
           context,
-          MaterialPageRoute(builder: (_) => const Productscreen()),
+          MaterialPageRoute(builder: (_) => const ProductScreen()),
         );
       }
     });
