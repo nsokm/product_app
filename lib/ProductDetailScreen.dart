@@ -41,7 +41,7 @@ class _ProductdetailscreenState extends State<Productdetailscreen> {
                 shadowColor: Colors.purple.withOpacity(0.4),
                 shape: RoundedRectangleBorder(
                   borderRadius: BorderRadius.circular(16),
-                  side: const BorderSide(color: Colors.purple, width: 2),
+                  side: const BorderSide(color: Color.fromARGB(255, 195, 173, 255), width: 2),
                 ),
                 child: Padding(
                   padding: const EdgeInsets.all(16),
