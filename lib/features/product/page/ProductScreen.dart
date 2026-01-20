@@ -29,7 +29,6 @@ class _ProductScreenState extends State<ProductScreen> {
     try {
       final result = await _service.fetchProducts();
 
-      // เรียงตามตัวอักษร
       result.sort((a, b) => a.title.compareTo(b.title));
 
       setState(() {
